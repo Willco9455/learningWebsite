@@ -1,0 +1,21 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: url(Background\ 1.jpg) no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a.back:hover{
+    color: lightblue;
+}
+
+h1{
+    text-align: center;
+    
+}
+
