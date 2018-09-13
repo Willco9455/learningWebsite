@@ -55,10 +55,11 @@ img.cat{
 }
 
 div.scroll{
-    height: 150px;
-    width: 150px;
-    background-color: green;
+    height: 200px;
+    width: 200px;
+    background-color: beige;
     float: left;
+    padding-left: 10px;
+    padding-right: 10px;
     overflow: scroll;
-    display: block;
 }
