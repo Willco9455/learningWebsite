@@ -1,10 +1,14 @@
 a.back{
     text-decoration: none;
     color: inherit;
+    line-height: 40px;
+    width: 100px;
+    text-align: center;
 }
 
 a.back:hover{
-    color: lightblue;
+    background-color: rgb(9, 4, 106);
+    color: white;
 }
 
 body{
@@ -36,7 +40,7 @@ ul li a{
 }
 
 ul li a:hover{
-    background-color: green;
+    background-color: rgb(9, 4, 106);
 }
 
 ul li ul li{
@@ -64,4 +68,11 @@ div.scroll{
     overflow: scroll;
     color: black;
     display: block;
+    margin: 0px 45% 0px 42%;
+}
+
+div.topBanner{
+    width: auto;
+    height: 40px;
+    background-color: black;
 }
