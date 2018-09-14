@@ -1,4 +1,4 @@
-function conditonalAndLoops(){/*
+    function conditonalAndLoops(){/*
     var x = 100;
     var x = (100<101)? "<h1>True</h1>":"fasle";
     document.write(x);
