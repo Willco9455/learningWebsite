@@ -56,13 +56,13 @@ function Functions(){
 
 function objects(){
 
-    var objects = {
+    var name = {
         forename:"will",
         surname:"moran"
     };    
     document.write("<br>" + 
-    objects.forename + 
-    objects.surname)
+    name.forename + "<br>" +
+    name.surname)
     
     document.write("<br>" +
     objects.forename.length)
