@@ -58,17 +58,24 @@ function objects(){
 
     var name = {
         forename:"will",
-        surname:"moran"
+        surname:"moran",
+        DOB:"12/01/03"
     };    
+    
     document.write("<br>" + 
     name.forename + "<br>" +
-    name.surname)
+    name.surname);
     
-    document.write("<br>" +
-    objects.forename.length)
+    document.write("<br>" + 
+    name.forename + "<br>" +
+    name.surname);
 
+    document.write("<br>" +
+    objects.forename.length);
+
+    var person1 = new name("JOHN","smith","21/21/21");
+    document.write("<br>" + name.forename);
     
 
 }
-
 objects()
