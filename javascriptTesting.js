@@ -66,7 +66,6 @@ function objects(){
     name.forename + "<br>" +
     name.surname);
     
-<<<<<<< HEAD
     function name(forename,surname,DOB){
         this.forename = forename;
         this.surname = surname;
@@ -84,18 +83,3 @@ do{
 }
 while(100<90);
 
-=======
-    document.write("<br>" + 
-    name.forename + "<br>" +
-    name.surname);
-
-    document.write("<br>" +
-    objects.forename.length);
-
-    var person1 = new name("JOHN","smith","21/21/21");
-    document.write("<br>" + name.forename);
-    
-
-}
-objects()
->>>>>>> 7746cbed8b185d32c258e2505a59c2ecab2aa1df
