@@ -58,17 +58,28 @@ function objects(){
 
     var name = {
         forename:"will",
-        surname:"moran"
+        surname:"moran",
+        DOB:"12/01/03"
     };    
+    
     document.write("<br>" + 
     name.forename + "<br>" +
-    name.surname)
+    name.surname);
     
-    document.write("<br>" +
-    objects.forename.length)
+    function name(forename,surname,DOB){
+        this.forename = forename;
+        this.surname = surname;
+        this.DOB = DOB;
+    }
 
+    var person1 = new name("JOHN","smith","21/21/21");
+    document.write("<br>" + person1.forename);
     
 
 }
 
-objects()
+do{
+    document.write('</br>' + 'this works once')
+}
+while(100<90);
+
