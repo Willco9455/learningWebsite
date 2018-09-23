@@ -11,13 +11,16 @@
         <body>
             <div>
                 <a href="homePage.html"class="back">Back</a>
-                <p id="change" style="text-align: center;">this sould change</p>
-                <button type="button" onclick='document.getElementById("change").style.display = "none"'>hide</button>
-                <button type="button" onclick='document.getElementById("change").style.display = "block"'>show</button>
+                <p id="change" style="text-align: center;">show and hide</p>
+                <button type="button" onclick='document.getElementById("change").style.visibility = "hidden"'>hide</button>
+                <button type="button" onclick='document.getElementById("change").style.visibility = "visible"'>show</button>
                
             </div>
-            <h1 id="colourChanger">YOUR TEXT<h1>
-            <button type="button" onclick="location.reload();">change colour</button>
+            <h1 id="colourChanger">Ydsalkjdsofjslkfslkfjldskfjlskfsdjfsdlkjfdslkfsljf<h1>
+            <button type="button" onclick='var colour = prompt("enter the colour you want to turn the text into")
+            document.getElementById("colourChanger").style.color=colour'>change colour</button>
+            
+            
             
             <script type="text/javascript" src="javascriptTesting.js"></script>
         </body>
