@@ -1,0 +1,1 @@
+onclick=document.getElementById("colourChanger").innerHTML=string(colour);
