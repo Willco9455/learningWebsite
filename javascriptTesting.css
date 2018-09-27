@@ -8,3 +8,10 @@ h1.colourChanger{
     outline-color: aliceblue;
     outline: 5px;
 }
+
+
+#showDT{
+    text-align: center;
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
