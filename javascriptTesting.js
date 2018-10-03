@@ -3,3 +3,6 @@ function changeText(){//this is a funtion to chaneg the center text when the but
     var doe; var cheese;
     doe = "one-hundred";
 }
+
+var x = {chotered:"welcome", welcome:1};
+document.getElementById("js").innerHTML= x.chotered;
