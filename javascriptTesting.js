@@ -3,6 +3,11 @@ function changeText(){//this is a funtion to chaneg the center text when the but
     var doe; var cheese;
     doe = "one-hundred";
 }
-
+var array = ["greener pastures", "number two"];
 var x = {chotered:"welcome", welcome:1};
-document.getElementById("js").innerHTML= x.chotered;
+document.getElementById("js").innerHTML= typeof doe;
+
+function toCelsius(fahrenheit) {
+    return (5/9) * (fahrenheit-32);
+}
+document.getElementById("demo").innerHTML = toCelsius;
