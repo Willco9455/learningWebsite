@@ -3,9 +3,13 @@ function changeText(){//this is a funtion to chaneg the center text when the but
     var doe; var cheese;
     doe = "one-hundred";
 }
-var array = ["greener pastures", "number two"];
-var x = {chotered:"welcome", welcome:1};
-document.getElementById("js").innerHTML= typeof doe;
+var colour = prompt("enter a colour to set the backgroudn to")
+var car = {
+colour:"pink",
+wheelSize:"12px",
+full : function(){
+    return this.colour + " " + this.wheelSize;
+}
 
-
-document.getElementById("demo").innerHTML = toCelsius;
+};
+document.write(car.full()) 
