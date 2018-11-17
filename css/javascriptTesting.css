@@ -15,3 +15,7 @@ h1.colourChanger{
     font-size: 50px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
+.textChanger{
+    color: red;
+}

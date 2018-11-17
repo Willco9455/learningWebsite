@@ -1,41 +1,36 @@
 <!DOCTYPE html>
 <html>
-        <head>
-            <meta charset="utf-8" />
-            <title>Test</title>
-            <link rel="stylesheet" href="all.css"/>
-            <link rel="stylesheet" href="javascriptTesting.css" />
-            
-        </head>
+    <head>
+        <meta charset="utf-8" />
+        <title>Test</title>
+        <link rel="stylesheet" href="./css/all.css"/>
+        <link rel="stylesheet" href="./css/javascriptTesting.css" />
         
-        <body>
-            <div>
-                <a href="homePage.html"class="back">Back</a>
-                <p id="change" style="text-align: center;">show and hide</p>
-                    <button type="button" onclick='document.getElementById("change").style.visibility = "hidden"'>hide</button>
-                    <button type="button" onclick='document.getElementById("change").style.visibility = "visible"'>show</button>
-                
-                </div>
-                <div>
-                    <h1 id="colourChanger">Ydsalkjdsofjslkfslkfjldskfjlskfsdjfsdlkjfdslkfsljf<h1>
-                    <button type="button" onclick='var colour = prompt("enter the colour you want to turn the text into")
-                    document.getElementById("colourChanger").style.color=colour'>change colour</button>
-                </div>
-                <p id="showDT">The date is currently</p>
-                <button type="button" onclick="changeText()">click to show the date</button>
-                <p id="js" style="text-align:center;"></p>
-                <p id="demo" style="text-align:center;"></p>
-                
-                
+    </head>
+
+    <body>
+        <div>
+            <a href="index.html"class="back">Back</a>
+            <p id="change" style="text-align: center;">show and hide</p>
+            <button type="button" onclick='document.getElementById("change").style.visibility = "hidden"'>hide</button>
+            <button type="button" onclick='document.getElementById("change").style.visibility = "visible"'>show</button>
+            
+        </div>
+
+        <div>
+            <h1 id="colourChanger">Ydsalkjdsofjslkfslkfjldskfjlskfsdjfsdlkjfdslkfsljf<h1>
+            <button type="button" onclick='var colour = prompt("enter the colour you want to turn the text into")
+            document.getElementById("colourChanger").style.color=colour'>change colour</button>
+        </div>
+
+        <p id="showDT">The date is currently</p>
+        <button type="button" onclick="changeText()">click to show the date</button>   
+        
             
             
-            
-            
-            
-            
-                <script type="text/javascript" src="javascriptTesting.js"></script>
-        </body>
-        </html>
+            <script type="text/javascript" src="./scripts/javascriptTesting.js"></script>
+    </body>
+</html>
         
         
         
