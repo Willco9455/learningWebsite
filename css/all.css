@@ -1,7 +1,7 @@
 body{
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: grey;
-    color: black;
+    background-image: url("./images/image.jpg");
+    color: white;
 }
 
 a{
