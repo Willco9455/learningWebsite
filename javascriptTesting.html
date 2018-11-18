@@ -9,11 +9,12 @@
     </head>
 
     <body id="body">
-    <div id="someTextDiv">
-        <p>some text</p>
+    <a href="./index.html">back</a>
+    <div>
+        <p id="someTextDiv">some text</p>
     </div>
-    <button onclick='document.getElementById("body").style.backgroundColor=colour'>click to change background to colour to your chosen colour</button>
-
+    <button onclick='changeTextWithId("someTextDiv","it woked")'>click to change background to colour to your chosen colour</button>
+    <button onclick="var stringLengthTest = prompt('enter string to Test');">test string length fucntion</button>
 
     <script src="./scripts/javascriptTesting.js"></script>
     </body>
