@@ -12,10 +12,7 @@ a.back:hover{
 }
 
 body{
-    background-image: url(Background\ 1.jpg);
-    background-size: cover;
     color: white;
-    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 ul{
     margin: 0px;

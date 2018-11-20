@@ -1,5 +1,4 @@
 body{
-    font-family: Georgia, 'Times New Roman', Times, serif;
     background-size: cover;
 }
 
@@ -9,7 +8,7 @@ h1{
 
 a{
     text-decoration: none;
-    color: white;
+    color: black;
 }
 
 t.back{
@@ -26,12 +25,13 @@ ul{
 
 ul li{
     float: left;
-    background-color: black;
-    color: white;
+    background-color: rgb(63, 62, 62);
+    color: black;
     width: 200px;
     height: 40px;
     text-align: center;
     line-height: 40px;
+    font-weight: bolder;
 }
 
 ul li a{
@@ -39,6 +39,6 @@ ul li a{
 }
 
 ul li:hover{
-    background-color: rgb(9, 4, 106);
+    background-color: rgb(199, 132, 65);
     opacity: 1;
 }

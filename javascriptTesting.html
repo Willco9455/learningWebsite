@@ -9,12 +9,15 @@
     </head>
 
     <body id="body">
-    <a href="./index.html">back</a>
+    <a class="back" href="index.html">back</a>
+    <h1>Javascript Testing</h1>
+    <p id="stringLengthTester">this text changes to what you type</p>
+    
     <div>
-        <p id="someTextDiv">some text</p>
+        <button onclick="var stringLengthTest = prompt('enter string to Test'); 
+        document.getElementById('stringLengthTester').innerHTML=stringLengthTest.length;"
+        >test string length fucntion</button>
     </div>
-    <button onclick='changeTextWithId("someTextDiv","it woked")'>click to change background to colour to your chosen colour</button>
-    <button onclick="var stringLengthTest = prompt('enter string to Test');">test string length fucntion</button>
 
     <script src="./scripts/javascriptTesting.js"></script>
     </body>
