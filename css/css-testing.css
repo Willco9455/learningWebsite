@@ -73,3 +73,7 @@ div.topBanner{
     height: 40px;
     background-color: black;
 }
+
+span.fontForMum{
+    font-family: 'Swanky and Moo Moo', cursive;
+}
