@@ -1,21 +1,20 @@
-button{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-h1.colourChanger{
-    outline-color: aliceblue;
-    outline: 5px;
-}
-
-
-#showDT{
+p{
+    color: black;
+    font-weight: bold;
+    font-family: 'helvetica neue', helvetica, sans-serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
     text-align: center;
-    font-size: 50px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 2px solid rgba(0,0,200,0.6);
+    background: rgba(0,0,200,0.3);
+    color: rgba(0,0,200,0.6);
+    border-radius: 20px;
+    padding: 5px 10px;
+    display: inline-block;
+    cursor: pointer;
 }
 
-.textChanger{
-    color: red;
+p#button:hover{
+    box-shadow: 2px 2px 4px rgba(0,0,200,0.4);
 }
+
