@@ -1,2 +1,1 @@
-var width = window.outerWidth;
-document.getElementById("topTabs").style.paddingLeft = (width-1000)/2 + "px";
+document.getElementById("topTabs").style.paddingLeft = (window.outerWidth-1000)/2 + "px";
