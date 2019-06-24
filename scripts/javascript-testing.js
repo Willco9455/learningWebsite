@@ -1,3 +1,5 @@
+var test = "ello"; console.log(String(test) + ' is a ' + typeof(test));
+
 function changeToRed (idToChange){
     document.getElementById(idToChange).style.color="red";
     document.getElementById("button1").style.display="none";
