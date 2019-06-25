@@ -9,5 +9,11 @@ function changeToPink (idToChange){
     document.getElementById("button1").style.display="inline-block";
     document.getElementById("button2").style.display="none";
 }
-var face = {eyeColour:"green",age:23,height:'6ft 1'}
-document.getElementById("testObject").innerHTML = "the face has" + " " + face.eyeColour + " " + "eyes";
+var face = {
+    eyeColour:"green",
+    age:23,height:'6ft 1',
+    eyeAndAge: function(){
+        return this.eyeColour + " " + this.age; 
+    }
+};
+document.getElementById("testObject").innerHTML = "the face has" + " " + face.eyeAndAge() + " " + "eyes";
