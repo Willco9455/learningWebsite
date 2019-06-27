@@ -14,4 +14,4 @@ var str3 = (str1.concat(" ",str2)).toUpperCase();
 document.getElementById("paragraph").innerHTML=String(str3);
 var test1 = 0xF8;
 document.write("</br><div id='buttonWrapper'><p id='button'>" + test1 +"</p></div>")
-
+document.getElementById("title").style="padding-right:89px;";
