@@ -1,4 +1,4 @@
-a.back{
+a#css-testing-back{
     text-decoration: none;
     color: inherit;
     line-height: 40px;
@@ -6,7 +6,7 @@ a.back{
     text-align: center;
 }
 
-a.back:hover{
+a#css-testing-back:hover{
     background-color: rgb(9, 4, 106);
     color: white;
 }
