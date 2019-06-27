@@ -11,11 +11,16 @@ a{
 }
 
 .back{
-    float: left;
+    height: 18px;
+    width: 35px;
+    padding: 5px 10px;
+    background-color: grey;
+    border-radius: 20px;
+    border: 2px solid black;
 }
 
 .back:hover{
-    color: red;
+    background-color: rgb(199, 132, 65);
 }
 
 h1{
