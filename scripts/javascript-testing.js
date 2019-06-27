@@ -1,14 +1,3 @@
-var test = "ello"; console.log(String(test) + ' is a ' + typeof(test));
-function changeToRed (idToChange){
-    document.getElementById(idToChange).style.color="red";
-    document.getElementById("button1").style.display="none";
-    document.getElementById("button2").style.display="inline-block";
-}
-function changeToPink (idToChange){
-    document.getElementById(idToChange).style.color="pink";
-    document.getElementById("button1").style.display="inline-block";
-    document.getElementById("button2").style.display="none";
-}
 var face = {
     eyeColour:"green",
     age:23,height:'6ft 1',
@@ -16,4 +5,11 @@ var face = {
         return this.eyeColour + " " + this.age; 
     }
 };
-document.getElementById("testObject").innerHTML = "the face has" + " " + face.eyeAndAge() + " " + "eyes";
+
+////slice and replaceing strings 
+var str1 = "find the possition of the right word possition";
+str1 = str1.replace(/possition/g,"possition replaced");
+var str2 = "add this to end of string ";
+var str3 = (str1.concat(" ",str2)).toUpperCase();
+document.getElementById("paragraph").innerHTML=String(str3);
+document.write("</br><div id='buttonWrapper'><p id='button'>this is the second button</p></div>")
