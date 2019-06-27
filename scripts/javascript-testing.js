@@ -12,5 +12,6 @@ str1 = str1.replace(/possition/g,"possition replaced");
 var str2 = "add this to end of string ";
 var str3 = (str1.concat(" ",str2)).toUpperCase();
 document.getElementById("paragraph").innerHTML=String(str3);
-var test1 = 0x28;
+var test1 = 0xF8;
 document.write("</br><div id='buttonWrapper'><p id='button'>" + test1 +"</p></div>")
+
