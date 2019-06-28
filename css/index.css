@@ -40,5 +40,5 @@ ul li a{
 
 ul li:hover{
     background-color: rgb(199, 132, 65);
-    opacity: 1;
+    opacity: 1; 
 }

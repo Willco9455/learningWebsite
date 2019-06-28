@@ -14,3 +14,12 @@ var str3 = (str1.concat(" ",str2)).toUpperCase();
 document.getElementById("paragraph").innerHTML=String(str3);
 var test1 = 0xF8;
 document.write("</br><div id='buttonWrapper'><p id='button'>" + test1 +"</p></div>");
+
+//arrays
+var array1 = ["apple","orange","lemon"];
+document.write(array1 + " ------>"); array1.splice(1,0,"hello","today","tomorow");
+document.write(array1);var x  = 0
+do{
+    document.write(array1[x] + " then ");
+    x += 1;
+}while(x < ((array1.length) - 1));
