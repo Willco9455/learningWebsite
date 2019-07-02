@@ -18,13 +18,21 @@ document.write("</br><div id='buttonWrapper'><p id='button'>" + test1 +"</p></di
 //array testing
 var array1 = ["apple","orange","lemon"];
 document.write(array1 + " ------>"); array1.splice(0,0,"hello","today","tomorow");
-document.write(array1);var x  = 0
-do{
-    document.write(array1[x] + " then ");
-    x += 1;
-}while(x < ((array1.length) - 1));
-array1.splice(0,3,"twelve");
-document.write("</br><p>" + array1 + "</p>");
-var array2 = ["one","two"];var array3 = ["three","four"];
-array1 = array1.concat(array2[0],array3);
-document.write("</br><p>" + array1 + "</p>");
+document.write(array1 + "</br></br>");var x  = 0;
+
+var ary = ["one","two","three","four"];
+for(i in ary){
+    document.write("</br>" + ary[i]);
+}
+
+
+//try and catch 
+try{
+    document.write(testingTesting212);
+}
+catch(error){
+    document.write("</br></br>" + error);
+};
+
+//global test
+document.write("</br>" + "<p style='text-align:center;color:red;font-weight:bold;text-transform:capitalize;'>" +testGlobal + "</br>");
